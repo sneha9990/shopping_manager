@@ -1,0 +1,25 @@
+extends base.pug
+block scripts 
+     script(src='/static/index.js')
+
+block style 
+      style 
+       include /style.css
+       include /index.js
+
+block content 
+      <section id="content">
+      <h1 class="h-primary">All your clothes at one place!!</h1>
+      <p style="font-size:40px">Tired of tracking different kinds of clothes at different places online??? &#129300; &#129300; </p>
+      <p style="font-size:40px">Let us do your work &#129323;</p>
+      </section>
+      //- <button class="show" onclick="myfunction2()">Show my cart</button>
+      <form action="/show" method="post" id="form2"n >
+      <input type="url" name="link" id="link" placeholder="Copy the link here" cols="100" rows="8"></textarea>
+      //- <p class="show"><a href="/show">Show</a> my cart
+      //- <button class="btn" onclick="myfunction()">Add to cart</button>
+      <p><input type="submit" id="show"> to see your cart </p>
+
+      //- <button class="show" onclick="myfunction" >Submit</button>
+      <a href="/logout" id="logout">Logout</a>
+      </form>

@@ -1,0 +1,17 @@
+extends base.pug
+
+block scripts 
+    script(src='/index.js')
+
+block style 
+    style
+     include /style.css
+     include /stylesponsors.css
+
+block content 
+    div.container
+      h1 Our sponsors
+      div.images
+        img(src="https://i0.wp.com/www.dafontfree.co/wp-content/uploads/2021/11/Amazon-Logo-Font-1-scaled.jpg?resize=2560%2C1578" class="amaozn" alt="amazon")
+        img(src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-c6vcqtlfu5qn38at3rp993fd81-20200219143455.Medi.jpeg" class="myntra" alt="myntra")
+        img(src="https://1000logos.net/wp-content/uploads/2021/02/Flipkart-Logo-2007.png" class="flipkart" alt="flipkart")

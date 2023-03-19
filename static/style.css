@@ -1,0 +1,230 @@
+*{
+    margin:0 ;padding:0 ;
+box-sizing:border-box;}
+.navbar{
+    background-color: black;
+    display: flex ;
+    height:85px ;
+    overflow: hidden ; 
+    position: sticky;
+    margin:0 ;
+    padding:0 ;
+}
+.list{
+    display: flex ;
+    list-style-type: none;
+    width: 50% ;
+    align-items: center;
+    /* justify-content: center; */
+}
+.list li{
+    padding: 23px ;
+}
+.list li a{
+    text-decoration: none;
+    color: white ;
+}
+.list li a:hover{
+    background-color:pink ;
+    border: 2px solid white ;
+    padding:4px ;
+    border-radius: 10px ;
+}
+.list li a:active{
+    background-color:pink ;
+    border: 2px solid white ;
+    padding:4px ;
+    border-radius: 10px ;
+}
+.right{ width: 50% ;
+text-align: right;
+ margin:20px ;
+}
+.btnlogg{
+    height:45px ;
+    width: 25% ;
+    border: 2px solid black ;
+    border-radius:10px ;
+    background-color: antiquewhite;
+}
+.btnlogg:hover{
+    border: 5px solid pink ;
+    border-radius:10px ;
+}
+.logo{
+ width:30% ; 
+ display:flex ; 
+ align-items: center ;
+ justify-content: center;}
+.logo img{
+    width: 30% ;
+    border: 2px solid pink ;
+    border-radius: 30px ;
+}
+.search{
+    padding: 5px ;
+    /* margin-bottom: 10px ; */
+    /* height: 10px ; */
+    border: 3px solid black;
+}
+#content::before{ 
+    content:"" ;
+    background: url('https://media.istockphoto.com/id/916092484/photo/women-clothes-hanging-on-hangers-clothing-rails-fashion-design.jpg?s=612x612&w=0&k=20&c=fUpcbOITkQqitglZfgJkWO3py-jsbuhc8eZfb4sdrfE=') no-repeat center center/cover  ;
+    opacity: 0.6;
+    height: 89% ; 
+    text-align: center ;
+    position: absolute ;
+    width:100% ;
+    z-index:-1 ;
+     
+    /* padding: 5px ; */
+}
+#content{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 3px 200px ;
+    /* font-size: 42px ; */
+    margin: 4px ;
+    /* height:828px ; */
+    height: 500px ;
+}
+h1{text-align: center;}
+/* p{font-size:40px ;}
+.special{font-size:10px ;} */
+.h-primary{
+    font-size:50px ;
+    padding:60px ;
+    
+}
+#choice{
+    text-align: center ;
+    width: 100%;
+    height: 50px ;
+    /* border: 2px solid red ; */
+    margin: 35px ;
+     
+}
+.special{font-size: 20px ;}
+
+#footer{
+     width: 100% ;
+    background-color: black ;
+    color: white ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    height: 60px ;
+}
+textarea{
+    margin: 40px ;
+    padding: 30px ;
+    /* font-size: 40px ; */
+    border: 5px solid black ;
+    border-radius: 10px ;
+}
+.btn{
+    background-color: grey;
+    color: white ;
+    padding: 10px ;
+    margin: 23px ;
+    border-radius: 10px;
+    height:40px ;
+}
+.btn:hover{
+    background-color: black;
+    border: 4px solid pink ; 
+    border-radius: 10px;
+}
+#acc{
+    border: 5px solid black;
+    border-radius: 4px ;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    padding: 5px ;
+    margin:30px ;
+    margin-left:280px ;
+    width:50% ;
+    background-color: antiquewhite;
+}
+.item{
+    margin:16px ;
+}
+.btnlog {
+    margin:10px ;
+    border: 2px solid black ;
+    border-radius: 4px;
+    padding:5px ;
+    background-color: rgb(157, 152, 152);
+}
+.btnlog:hover{
+    
+    border: 3px solid pink ;
+}
+#acc a{
+    margin:10px ;
+    border: 2px solid black ;
+    border-radius: 4px;
+    padding:5px ;
+    background-color: rgb(157, 152, 152);
+    text-decoration: none;
+    color:black ;
+}
+#acc a:hover{
+    border: 3px solid pink ;
+}
+#logout{
+    text-decoration: none ;
+    border: 3px solid black ;
+    border-radius: 6px;
+    background-color: rgb(157, 152, 152);
+    padding:5px ;
+    /* margin: 5px ; */
+    /* margin-left: 1000px ; */
+    height: 38px ; 
+    margin-bottom:30px ;
+    color: white ;
+    width:8% ;
+    text-align : center;
+}
+#logout:hover{
+    background-color: black ;
+    border: 3px solid pink ;
+    border-radius: 6px ;
+}
+#form2{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    
+}
+#link{
+    background-color: antiquewhite ;
+    height:60px ;
+    margin:20px ;
+    padding:5px ;
+    width:470px ;
+    border: 3px solid black ;
+}
+#show{
+    background-color: rgb(157, 152, 152);
+    border: 3px solid black ;
+    border-radius: 6px ;
+    padding:5px ;
+    /* margin:50px ; */
+    /* width:38% ; */
+    /* font-size:40px ; */
+    height:50px ;
+    width: 100px ;
+    margin-bottom:29px ;
+    margin-left:120px ;
+}
+/* @media screen and (max-width: 915px ) {
+  #content::before{
+    height:1500px  ;
+  }
+} */

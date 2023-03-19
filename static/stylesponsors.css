@@ -1,0 +1,32 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+}
+h1{
+    text-align:center ;
+    margin: 11px ;
+    
+}
+.container{
+    background-color: antiquewhite;
+    height: 75vh ;
+}
+.images{
+    display:flex ;
+    flex-direction: row;
+}
+.images img{
+    height: 243px ;
+    /* width: 100% ; */
+    width: 30% ;
+    margin: 15px ;
+    border: 4px solid black ;
+    border-radius: 20px;
+}
+@media screen and (max-width: 915px ) {
+    .images{
+        display:flex ;
+        flex-direction: column ;
+    }
+}
